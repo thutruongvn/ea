@@ -22,6 +22,11 @@ public class Order {
 
     private String customerAddress;
 
+    private String paymentId;
+
+    @Enumerated(EnumType.STRING)
+    private OrderStatusType status;
+
     @OneToMany(cascade = CascadeType.ALL)
     private List<OrderItem> items;
 
