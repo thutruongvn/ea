@@ -1,10 +1,10 @@
-package edu.mum.cs.ea.order;
+package edu.mum.cs.ea.shipping;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrderApplicationTests {
+class ShippingApplicationTests {
 
     @Test
     void contextLoads() {
